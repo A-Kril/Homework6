@@ -3,21 +3,25 @@
 2. Выполнять авторизацию пользователей
 3. Выполнять CRUD операции над следующими объектами:
 ==========================
+
 Product:
 UUID id;
 String name;
 BigDecimal price;
 Manufacturer manufacturer;
 ==========================
+
 Manufacturer
 UUID id;
 String name;
 Set<Product> products;
 ==========================
+
 Role
 UUID id;
 String name;
 ==========================
+
 User
 UUID id;
 String email;
